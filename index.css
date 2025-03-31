@@ -1,0 +1,7 @@
+header {
+    background-image: url(style-css/img/fundo\ header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 160vh;
+}

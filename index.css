@@ -1,7 +1,184 @@
-header {
-    background-image: url(style-css/img/fundo\ header.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 160vh;
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #fff;
+    line-height: 1.6;
+  }
+  
+  /* HEADER */
+  header {
+    background-color: #004d70ff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .header-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    width: 200px;
+    margin-right: 10px;
+  }
+  .preview-btn {
+    background-color: #e87d25ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  .preview-btn:hover {
+    background-color: rgb(209, 102, 14);
+  }
+  
+  /* MAIN */
+  main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  /* Seção de Boas-Vindas */
+  .welcome-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px 0;
+    border-bottom: 1px solid #eee;
+  }
+  .welcome-section .text-content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  .welcome-section .image-content {
+    flex: 1;
+    text-align: center;
+    
+  }
+
+.text-content {
+    color: #0a4e70ff;
 }
+
+  .welcome-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Seção de Call-to-Action */
+  .cta-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #0079faff;
+    border-radius: 10px;
+    margin: 40px 0;
+    
+  }
+  .cta-section h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+  }
+  .start-course-btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+  }
+  .start-course-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Seção Benchmark */
+  .benchmark-section {
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+  }
+  .benchmark-section h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  .industry-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .industry-buttons button {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background-color 0.3s;
+  }
+  .industry-buttons button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Links de Informação */
+  .info-links {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .info-links nav ul {
+    list-style: none;
+    display: inline-flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .info-links nav ul li a {
+    text-decoration: none;
+    color: #0073e6;
+    font-size: 0.9rem;
+  }
+  .info-links nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* FOOTER */
+  footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .footer-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-content img {
+    width: 40px;
+    margin-bottom: 10px;
+  }
+  
